@@ -123,6 +123,7 @@ fun! AnsiEsc#AnsiEsc(rebuild)
   syn region ansiMagenta	start="\e\[;\=0\{0,2};\=35m" end="\e\["me=e-2 contains=ansiConceal
   syn region ansiCyan		start="\e\[;\=0\{0,2};\=36m" end="\e\["me=e-2 contains=ansiConceal
   syn region ansiWhite		start="\e\[;\=0\{0,2};\=37m" end="\e\["me=e-2 contains=ansiConceal
+  syn region ansiBold		start="\e\[;\=0\{0,1}1;\=39m" end="\e\["me=e-2 contains=ansiConceal
 
   syn region ansiBlackBg	start="\e\[;\=0\{0,2};\=\%(1;\)\=40\%(1;\)\=m" end="\e\["me=e-2 contains=ansiConceal
   syn region ansiRedBg		start="\e\[;\=0\{0,2};\=\%(1;\)\=41\%(1;\)\=m" end="\e\["me=e-2 contains=ansiConceal
